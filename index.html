@@ -1,55 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>MEP Services Oman | Alwejha Group</title>
-    <meta name="description" content="Alwejha Group provides comprehensive MEP (mechanical, electrical, plumbing) services across Oman. We deliver design, installation, and maintenance solutions for buildings with an emphasis on efficiency and reliability.">
-    <meta name="keywords" content="MEP services Oman, mechanical electrical plumbing, building systems, Alwejha Group">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Open Graph -->
-    <meta property="og:title" content="MEP Services in Oman - Alwejha Group">
-    <meta property="og:description" content="Alwejha Group offers integrated mechanical, electrical, and plumbing (MEP) services in Oman, ensuring efficient and reliable building systems for commercial, industrial, and residential projects.">
-    <meta property="og:image" content="https://mep-services-oman.alwejhagroup.com/mep-services-oman.webp">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mep-services-oman.alwejhagroup.com">
-    <style>
-        body { margin: 0 auto; max-width: 800px; padding: 0 1em; font-family: Arial, sans-serif; background-color: #fff; color: #000; }
-        nav { margin: 1em 0; }
-        nav a { margin-right: 15px; text-decoration: none; color: #0000EE; }
-        nav a:hover { text-decoration: underline; }
-        h1 { font-size: 2em; margin-top: 0.5em; }
-        h2 { font-size: 1.5em; margin-top: 1em; }
-        p, ul { line-height: 1.6; }
-        ul { padding-left: 1.2em; }
-        footer { margin-top: 2em; font-size: 0.9em; text-align: center; }
-        img.hero { width: 100%; height: auto; display: block; margin-bottom: 0.5em; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <title>MEP Services in Oman | Alwejha Group</title>
+  <meta name="description" content="Explore expert MEP services in Oman with Alwejha Group. We offer Mechanical, Electrical, and Plumbing solutions tailored for commercial and industrial projects." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://mep-services-oman.alwejhagroup.com/" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/webp" href="mep-services-oman.webp" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mep-services-oman.alwejhagroup.com/" />
+  <meta property="og:title" content="MEP Services in Oman | Alwejha Group" />
+  <meta property="og:description" content="Explore expert MEP services in Oman with Alwejha Group. We offer Mechanical, Electrical, and Plumbing solutions tailored for commercial and industrial projects." />
+  <meta property="og:image" content="https://mep-services-oman.alwejhagroup.com/mep-services-oman.webp" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="MEP Services in Oman | Alwejha Group" />
+  <meta property="twitter:description" content="Explore expert MEP services in Oman with Alwejha Group. We offer Mechanical, Electrical, and Plumbing solutions tailored for commercial and industrial projects." />
+  <meta property="twitter:image" content="https://mep-services-oman.alwejhagroup.com/mep-services-oman.webp" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      line-height: 1.6;
+      background: #ffffff;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    header {
+      background: url('mep-services-oman.webp') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      color: #fff;
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    header h1 {
+      font-size: 3rem;
+      z-index: 2;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    }
+
+    nav {
+      background: #003366;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+      font-size: 16px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav a {
+      color: #ffffff;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    section h2 {
+      color: #003366;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      text-align: center;
+    }
+    section p, section ul {
+      font-size: 1rem;
+      color: #555;
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      padding: 8px 0;
+    }
+
+    .cta-button {
+      display: block;
+      width: fit-content;
+      margin: 40px auto;
+      padding: 12px 25px;
+      background: #003366;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+    .cta-button:hover {
+      background: #005599;
+    }
+
+    footer {
+      background: #003366;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      nav {
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-    <nav>
+
+<header>
+  <h1>MEP Services in Oman</h1>
+</header>
+
+<nav>
   <a href="https://www.alwejhagroup.com/">Home</a>
   <a href="https://www.alwejhagroup.com/#expertise">Area of Expertise</a>
   <a href="https://www.alwejhagroup.com/#services">Our Services</a>
   <a href="https://www.alwejhagroup.com/#clients">Our Clients</a>
   <a href="https://www.alwejhagroup.com/#contact">Contact</a>
 </nav>
-    <img class="hero" src="./mep-services-oman.webp" alt="Skyscrapers in Oman representing MEP services">
-    <h1>MEP Services in Oman</h1>
-    <p>As a leader in Oman’s engineering sector, Alwejha Group delivers comprehensive Mechanical, Electrical, and Plumbing (MEP) services for modern buildings. We integrate all building systems to ensure safety, comfort, and efficiency across residential, commercial, and industrial projects.</p>
-    <h2 id="expertise">Area of Expertise</h2>
-    <p>Our expertise covers every aspect of MEP services, from detailed design and engineering to installation, commissioning, and maintenance of building systems. We understand Oman’s climate and regulations, providing tailored solutions that optimize performance and energy efficiency. Whether it’s HVAC, power distribution, or plumbing systems, our team ensures each component works seamlessly together.</p>
-    <h2 id="services">Our Services</h2>
-    <ul>
-    <li>System design, engineering, and simulation</li>
-        <li>HVAC, electrical, and plumbing installation</li>
-        <li>Commissioning and performance testing</li>
-        <li>Preventive maintenance and 24/7 support</li>
-        <li>Energy efficiency optimization</li>
-    </ul>
-    <h2 id="clients">Our Clients</h2>
-    <p>Trusted by Oman’s top construction companies, property developers, and government agencies, Alwejha Group has delivered MEP solutions for a wide range of projects. From high-rise complexes and shopping centers to hospitals and educational facilities, our portfolio showcases successful collaborations and satisfied clients throughout Oman.</p>
-    <h2 id="contact">Contact Us</h2>
-    <p>Have an MEP project? <a href="https://www.alwejhagroup.com">Get in touch</a> with our experts today to discuss your requirements.</p>
-    <footer>© 2025 Alwejha Group. All rights reserved.</footer>
+
+<section>
+  <h2>Area of Expertise</h2>
+  <p>Alwejha Group delivers top-tier Mechanical, Electrical, and Plumbing (MEP) services for Oman’s industrial and commercial infrastructure. Our solutions are reliable, cost-effective, and engineered to meet international standards.</p>
+</section>
+
+<section>
+  <h2>Our Services</h2>
+  <ul>
+    <li>HVAC Systems Installation & Maintenance</li>
+    <li>Electrical Wiring, Lighting & Automation</li>
+    <li>Plumbing Network Design & Execution</li>
+    <li>Fire Safety and Alarm Systems</li>
+    <li>Energy Efficiency Optimization</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Client-Centric Approach</h2>
+  <p>From consultation to execution, our MEP team ensures client satisfaction, on-time delivery, and adherence to Oman’s safety regulations.</p>
+</section>
+
+<a class="cta-button" href="https://www.alwejhagroup.com/#contact">Request a Quote</a>
+
+<footer>
+  &copy; 2025 Alwejha Group. All rights reserved.
+</footer>
+
 </body>
 </html>
